@@ -33,12 +33,17 @@ body{
 
 .tittle{
     display: flex;
+    width: 100%;
     border: 10px;
     border-radius: 15px;
     justify-content: space-between;
     align-items: center;
-    transition: duration 1ms;
-    margin: 10px;
+    margin: 11px;
+    justify-content: space-around;
+    height: 30px;
+    
+    padding: 10px;
+    
 
 }
  
@@ -49,6 +54,11 @@ body{
     padding:10px;
     border: none;
     justify-content: space-between;
+    transition: 1s;
+}
+
+.subject{
+    margin:20px ;
 }
 
 .subject-sub{
@@ -167,9 +177,8 @@ body{
 .item:hover{
     background-color:white;
     color: blueviolet;
-    border: 10px;
-    margin: 10px;
-
+    border: 2px solid blueviolet;
+   
 }
         
 
