@@ -1,0 +1,214 @@
+body{
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+.navigation{
+    color:blueviolet;
+}
+.navigation-sub{
+    color: grey;
+    padding: 15px;
+    border-radius:40px;
+    height:50%;
+    border: solid 1px black;
+    width: 60%;
+    
+}
+
+.navigation-sub input{
+    border: none;
+}
+
+.navigation-sub input:focus{
+    outline: none;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.tittle{
+    display: flex;
+    border: 10px;
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: center;
+    transition: duration 1ms;
+    margin: 10px;
+
+}
+ 
+.item{
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    padding:10px;
+    border: none;
+    justify-content: space-between;
+}
+
+.subject-sub{
+    margin: 5px;
+    padding: 10px;
+}
+
+.data{
+    position: relative;
+    margin-top: 15px;
+}
+
+.data img{
+    width: 100%;
+}
+
+.data-sub{
+    position: absolute;
+    top: 10%;
+    left: 2;
+    right: 2;
+    padding: 20px;
+    background-color: white;
+    width: 20%;
+    margin: 20px;
+
+}
+.Recommended{
+    padding: 20px;
+}
+
+.container-sub{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    line-height: 1.1;
+    flex-wrap: wrap;
+}
+
+.cards-name{
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
+    padding: 20px;
+}
+
+.cards-name img{
+    height: 40%;
+    width: 100%;
+}
+
+.topics{
+    padding: 20px;
+}
+
+.topics-sub{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topics-sub p{
+    padding: 10px;
+    flex-basis: 25%;
+    flex-grow: 1;
+    border: 2px solid;
+    margin: 10px;
+}
+
+.popular{
+    padding: 20px;
+}
+
+.popular-sub{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.cards-name{
+    flex-grow: 1;
+    flex-basis: 20%;
+    line-height: 1.1;
+    padding: 20px;
+    
+}
+
+.cards-name img{
+    height: 40%;
+    width: 100%; 
+}
+
+.java{
+     display: flex;
+     background-color: black;
+     color: white;
+     padding: 20px;
+     height: 100%;
+     width: 100%;
+     
+}
+
+.udemy{
+    background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.basic{
+    padding: 20px;
+}
+
+.item:hover{
+    background-color:white;
+    color: blueviolet;
+    border: 10px;
+    margin: 10px;
+
+}
+        
+
+
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }  
+}
+
+@media screen and (max-width:600px) {
+
+    .cards-name{
+        flex-basis: 30%;
+    }
+
+    .tittle{
+        display:none;
+    }
+
+    .subject-sub{
+        display: none;
+    }
+
+    .navigation-sub{
+        display: none;
+    }
+
+    .subject{
+        display: none;
+    }
+
+    .subject-sub{
+        display: none;
+    }
+
+    .data-sub{
+        display: none;
+    }
+    
+}    
+
